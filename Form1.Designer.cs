@@ -48,7 +48,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(57, 9);
             label1.Name = "label1";
             label1.Size = new Size(60, 15);
             label1.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // txt_user
             // 
-            txt_user.Location = new Point(12, 27);
+            txt_user.Location = new Point(57, 27);
             txt_user.Name = "txt_user";
             txt_user.Size = new Size(100, 23);
             txt_user.TabIndex = 2;
@@ -65,7 +65,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 82);
+            label2.Location = new Point(57, 82);
             label2.Name = "label2";
             label2.Size = new Size(57, 15);
             label2.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             // txt_pw
             // 
-            txt_pw.Location = new Point(12, 100);
+            txt_pw.Location = new Point(57, 100);
             txt_pw.Name = "txt_pw";
             txt_pw.PasswordChar = '*';
             txt_pw.Size = new Size(100, 23);

@@ -23,15 +23,19 @@ namespace bengaleiro
 
         }
 
-        private void btn_add_Click(object sender, EventArgs e)
+        private void btn_reg_Click(object sender, EventArgs e)
         {
+            this.Close();
 
-
+            Registo r1 = new Registo();
+            r1.Show();
         }
 
-        private void btn_remove_Click(object sender, EventArgs e)
+        private void btn_ex_Click(object sender, EventArgs e)
         {
-            label1.Text = ("label1");
+            this.Close ();
+            Saida s1 = new Saida();
+            s1.Show();
         }
     }
 }

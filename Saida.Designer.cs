@@ -1,6 +1,6 @@
 ﻿namespace bengaleiro
 {
-    partial class Segundo
+    partial class Saida
     {
         /// <summary>
         /// Required designer variable.
@@ -28,46 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btn_reg = new Button();
-            btn_ex = new Button();
+            btn_exit_s = new Button();
             SuspendLayout();
             // 
-            // btn_reg
+            // btn_exit_s
             // 
-            btn_reg.Location = new Point(37, 40);
-            btn_reg.Name = "btn_reg";
-            btn_reg.Size = new Size(124, 26);
-            btn_reg.TabIndex = 0;
-            btn_reg.Text = "Registo";
-            btn_reg.UseVisualStyleBackColor = true;
-            btn_reg.Click += btn_reg_Click;
+            btn_exit_s.Location = new Point(90, 312);
+            btn_exit_s.Name = "btn_exit_s";
+            btn_exit_s.Size = new Size(75, 23);
+            btn_exit_s.TabIndex = 1;
+            btn_exit_s.Text = "Voltar";
+            btn_exit_s.UseVisualStyleBackColor = true;
+            btn_exit_s.Click += btn_exit_s_Click;
             // 
-            // btn_ex
-            // 
-            btn_ex.Location = new Point(37, 113);
-            btn_ex.Name = "btn_ex";
-            btn_ex.Size = new Size(124, 23);
-            btn_ex.TabIndex = 1;
-            btn_ex.Text = "Saida";
-            btn_ex.UseVisualStyleBackColor = true;
-            btn_ex.Click += btn_ex_Click;
-            // 
-            // Segundo
+            // Saida
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(216, 188);
-            Controls.Add(btn_ex);
-            Controls.Add(btn_reg);
-            Name = "Segundo";
-            Text = "Novo";
-            Load += Segundo_Load;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btn_exit_s);
+            Name = "Saida";
+            Text = "Saida";
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button btn_reg;
-        private Button btn_ex;
+        private Button btn_exit_s;
     }
 }
